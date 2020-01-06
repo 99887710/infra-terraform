@@ -1,0 +1,31 @@
+[
+  {
+    "name": "kafka",
+    "image": "landoop/fast-data-dev",
+    "cpu": 10,
+    "memory": 512,
+    "essential": true,
+    "portMappings": [
+      {
+        "containerPort": 3030,
+        "hostPort": 3030
+      },
+      {
+        "containerPort": 2181,
+        "hostPort": 2181
+      },
+      {
+        "containerPort": 9092,
+        "hostPort": 9092
+      },
+      {
+        "containerPort": 9093,
+        "hostPort": 9093
+      },
+      {
+        "containerPort": 8081,
+        "hostPort": 8081
+      }
+    ]
+  }
+]
